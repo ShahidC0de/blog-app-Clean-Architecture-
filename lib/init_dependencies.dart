@@ -43,3 +43,6 @@ void _initAuth() {
     ),
   );
 }
+// note that the initDependencies function is called in main function so then it will run initAuth function,
+// now that all the dependencies are registered then in multiproviderbloc we should give the Authbloc dependency,
+// and then it will go from last step to first step....
